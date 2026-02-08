@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JOY The Baking School by Anuraca Sircar | Lucknow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="logo">
+        
+        <span class="logo-mark">JOY</span>
+        <span class="logo-sub">by Anuraca Sircar</span>
+      </div>
+      <div class="nav-links">
+        <a href="#classes">Classes</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <button class="btn ghost" id="openCart">Cart (<span id="cartCount">0</span>)</button>
+        <button class="btn primary" id="openEnroll">Enroll Now</button>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">Bakery Course | Cake Making Classes in Lucknow</p>
+        <h1>JOY The Baking School by Anuraca Sircar</h1>
+        <p class="lead">A modern bakery academy with hands-on classes, signature cakes, and a studio that turns passion into profession. Explore upcoming batches, enroll in minutes, and order from our cake counter.</p>
+        <div class="hero-cta">
+          <button class="btn primary" id="heroEnroll">Book a Class</button>
+          <button class="btn outline" id="heroMenu">See Menu</button>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <strong>15+</strong>
+            <span>Years Teaching</span>
+          </div>
+          <div>
+            <strong>1200+</strong>
+            <span>Students Trained</span>
+          </div>
+          <div>
+            <strong>4.9</strong>
+            <span>Average Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="card-stack">
+          <div class="photo" style="background-image:url('images/hero-img1.webp');"></div>
+          <div class="photo" style="background-image:url('images/hero-img2.webp');"></div>
+          <div class="photo" style="background-image:url('images/hero-img3.webp');"></div>
+        </div>
+        <div class="floating-pill">Next Batch: Feb 22, 2026</div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="presence">
+      <div class="section-title">
+        <h2>Digital Presence, Real World Taste</h2>
+        <p>Showcase your studio, product catalog, and class calendar with a site that converts. This sample is built to convince clients you can launch fast and customize without friction.</p>
+      </div>
+      <div class="presence-grid">
+        <div class="presence-card">
+          <h3>Studio Profile</h3>
+          <p>Introduce your founder, facilities, certifications, and signature teaching approach in a visually premium layout.</p>
+        </div>
+        <div class="presence-card">
+          <h3>Class Pipeline</h3>
+          <p>Batch schedules, seat count, and instant enrollment flow � built to maximize conversion.</p>
+        </div>
+        <div class="presence-card">
+          <h3>Bakery Commerce</h3>
+          <p>Menu pages, cart, checkout, and payment modes (cash or online) with an elegant summary.</p>
+        </div>
+        <div class="presence-card">
+          <h3>Reviews & Ratings</h3>
+          <p>Social proof that builds trust. Collect testimonials and publish ratings instantly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlight" id="classes">
+      <div class="section-title">
+        <h2>Upcoming Baking Classes</h2>
+        <p>Reserve your seat, pay online or offline, and receive a bill summary instantly.</p>
+      </div>
+      <div class="class-grid" id="classGrid"></div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="section-title">
+        <h2>Signature Cakes & Bakery Menu</h2>
+        <p>Pick a cake, add to cart, and choose dine-in or takeaway.</p>
+      </div>
+      <div class="menu-filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="cakes">Cakes</button>
+        <button class="filter" data-filter="breads">Breads</button>
+        <button class="filter" data-filter="pastries">Pastries</button>
+        <button class="filter" data-filter="cookies">Cookies</button>
+      </div>
+      <div class="menu-grid" id="menuGrid"></div>
+    </section>
+
+    <section class="section highlight" id="offers">
+      <div class="section-title">
+        <h2>Offers & Membership</h2>
+        <p>Limited-time deals to boost order volume and class conversions.</p>
+      </div>
+      <div class="offer-grid">
+        <div class="offer-card">
+          <h3>Weekend Pro Batch</h3>
+          <p>Save 20% on weekend classes when you bring a friend.</p>
+          <span class="tag">Feb 2026</span>
+        </div>
+        <div class="offer-card">
+          <h3>Valentine Cake Drop</h3>
+          <p>Pre-order designer cakes and get free delivery in Lucknow.</p>
+          <span class="tag">Limited</span>
+        </div>
+        <div class="offer-card">
+          <h3>Student Starter Kit</h3>
+          <p>Enroll in any professional course and receive a baking toolkit.</p>
+          <span class="tag">New</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="section-title">
+        <h2>Ratings & Reviews</h2>
+        <p>Real feedback from students and bakery customers.</p>
+      </div>
+      <div class="review-grid" id="reviewGrid"></div>
+      <div class="review-form">
+        <h3>Add Your Review</h3>
+        <form id="reviewForm">
+          <input type="text" id="reviewName" placeholder="Your Name" required />
+          <select id="reviewRating">
+            <option value="5">5 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="2">2 Stars</option>
+            <option value="1">1 Star</option>
+          </select>
+          <textarea id="reviewText" rows="3" placeholder="Share your experience..." required></textarea>
+          <button class="btn primary" type="submit">Submit Review</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section highlight" id="orders">
+      <div class="section-title">
+        <h2>Dine-In & Takeaway Orders</h2>
+        <p>Choose your order type and payment mode. Get a clean bill summary instantly.</p>
+      </div>
+      <div class="order-panel">
+        <div class="order-box">
+          <h3>Order Type</h3>
+          <div class="toggle-group">
+            <button class="toggle active" data-order="dinein">Dine-In</button>
+            <button class="toggle" data-order="takeaway">Takeaway</button>
+          </div>
+          <h3>Payment Mode</h3>
+          <div class="toggle-group">
+            <button class="toggle active" data-payment="online">Online</button>
+            <button class="toggle" data-payment="cash">Cash</button>
+          </div>
+          <div class="summary">
+            <p>Subtotal: <span id="summarySubtotal">?0</span></p>
+            <p>Taxes & Packaging: <span id="summaryTax">?0</span></p>
+            <p class="total">Total: <span id="summaryTotal">?0</span></p>
+          </div>
+          <button class="btn primary" id="placeOrder">Generate Bill Summary</button>
+        </div>
+        <div class="order-box bill" id="billBox">
+          <h3>Bill Summary</h3>
+          <div id="billContent">Add items to cart to see your bill summary.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-title">
+        <h2>Visit JOY in Lucknow</h2>
+        <p>Book a tour, ask for customization, or get directions instantly.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Studio Address</h3>
+          <p>JOY � The Baking School by Anuraca Sircar<br/>Gomti Nagar, Lucknow, Uttar Pradesh</p>
+          <p>Open: 10:00 AM � 8:00 PM</p>
+          <div class="contact-actions">
+            <a class="btn outline" href="https://maps.google.com/?q=Gomti%20Nagar%20Lucknow" target="_blank" rel="noreferrer">Get Directions</a>
+            <a class="btn whatsapp" id="whatsappBtn" href="#" target="_blank" rel="noreferrer">WhatsApp Chat</a>
+            <button class="btn ghost" id="openContact">Book a Visit</button>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Quick Contact</h3>
+          <p>Phone: +91 90000 00000</p>
+          <p>Email: hello@joybaking.in</p>
+          <p>Instagram: @joybakingschool</p>
+          <div class="contact-actions">
+            <button class="btn primary" id="openEnroll2">Enroll / Order</button>
+          </div>
+        </div>
+        <!-- <div class="contact-card">
+          <h3>Why This Website?</h3>
+          <p>This demo is designed to convince clients you can deliver a high-converting bakery website fast, with payments, booking, and commerce built-in.</p>
+          <p class="tiny">Fully customizable branding, UI, and content.</p>
+        </div> -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>JOY � The Baking School by Anuraca Sircar</h3>
+      <p>Bakery Course | Cake Making Classes | Custom Cakes | Lucknow</p>
+    </div>
+    <div class="footer-links">
+      <a href="#top">Back to top</a>
+      <a href="#classes">Classes</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="enrollModal">
+    <div class="modal-content">
+      <button class="close" data-close="enrollModal">�</button>
+      <h3>Enroll in a Class</h3>
+      <form id="enrollForm">
+        <input type="text" id="studentName" placeholder="Your Name" required />
+        <input type="email" id="studentEmail" placeholder="Email" required />
+        <input type="tel" id="studentPhone" placeholder="Phone" required />
+        <select id="selectedClass"></select>
+        <select id="paymentMode">
+          <option value="online">Online Payment</option>
+          <option value="cash">Cash Payment</option>
+        </select>
+        <button class="btn primary" type="submit">Confirm Enrollment</button>
+      </form>
+      <a class="btn upi" id="upiEnrollBtn" href="#" target="_blank" rel="noreferrer">Pay via UPI</a>
+      <div class="modal-note" id="enrollNote"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="cartModal">
+    <div class="modal-content">
+      <button class="close" data-close="cartModal">�</button>
+      <h3>Your Cart</h3>
+      <div id="cartItems"></div>
+      <div class="cart-summary">
+        <p>Subtotal: <span id="cartSubtotal">?0</span></p>
+        <p>Taxes & Packaging: <span id="cartTax">?0</span></p>
+        <p class="total">Total: <span id="cartTotal">?0</span></p>
+      </div>
+      <button class="btn primary" id="checkoutBtn">Proceed to Payment</button>
+      <a class="btn upi" id="upiPayBtn" href="#" target="_blank" rel="noreferrer">Pay via UPI</a>
+      <div class="modal-note" id="checkoutNote"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="contactModal">
+    <div class="modal-content">
+      <button class="close" data-close="contactModal">�</button>
+      <h3>Book a Visit / Consultation</h3>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone" required />
+        <textarea rows="3" placeholder="Tell us what you need" required></textarea>
+        <button class="btn primary" type="submit">Send Request</button>
+      </form>
+      <div class="modal-note" id="contactNote"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
