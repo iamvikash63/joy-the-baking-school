@@ -10,7 +10,7 @@ const classes = [
     title: "Professional Cake Artist Batch",
     date: "Feb 22, 2026",
     seats: 18,
-    price: 14999,
+    price: 1,
     level: "Advanced",
     image: "images/product-cake.jpg",
   },
