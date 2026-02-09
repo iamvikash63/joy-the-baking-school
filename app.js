@@ -1,6 +1,6 @@
 const paymentConfig = {
   whatsappNumber: "9235648119",
-  upiId: "9235648119@jio",
+  upiId: "8957940306@ibl",
   payeeName: "JOY The Baking School",
 };
 
