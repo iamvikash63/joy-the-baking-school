@@ -1,6 +1,6 @@
 const paymentConfig = {
-  whatsappNumber: "919000000000",
-  upiId: "joybaking@upi",
+  whatsappNumber: "9235648119",
+  upiId: "9235648119@jio",
   payeeName: "JOY The Baking School",
 };
 
@@ -96,6 +96,7 @@ const reviews = [
     text: "Ordered a designer cake and it was absolutely stunning. Great service!",
   },
 ];
+
 
 const cart = [];
 let orderType = "dinein";
@@ -196,7 +197,7 @@ function renderClasses() {
 
     const option = document.createElement("option");
     option.value = item.id;
-    option.textContent = `${item.title} — ${formatCurrency(item.price)}`;
+    option.textContent = `${item.title} ï¿½ ${formatCurrency(item.price)}`;
     selectedClass.appendChild(option);
   });
 }
@@ -242,7 +243,7 @@ function updateCart() {
       (item) => `
       <div class="cart-line">
         <strong>${item.name}</strong>
-        <span>${item.qty} × ${formatCurrency(item.price)}</span>
+        <span>${item.qty} ï¿½ ${formatCurrency(item.price)}</span>
       </div>
     `
     )
